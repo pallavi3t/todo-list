@@ -1,3 +1,4 @@
+import { CreateTask } from "./components/createtask"
 import { Header } from "./components/header"
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
   return (
     <div class=" bg-slate-800">
       <Header />
-
+      <CreateTask />
     </div>
 
   )
