@@ -5,8 +5,13 @@ function App() {
 
   return (
     <div class=" bg-slate-800">
+
       <Header />
-      <CreateTask />
+
+      <div class="">
+        <CreateTask />
+      </div>
+
     </div>
 
   )
